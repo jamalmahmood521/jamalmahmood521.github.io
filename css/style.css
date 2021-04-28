@@ -1,0 +1,190 @@
+*,
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #cbcbcd;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.img-responsive{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.bg-gradient{
+	background: linear-gradient(to right, #c7933b , #e3c477);
+}
+
+.bg_light{
+	background-color: #111;
+}
+
+.bt0
+{
+	background : -moz-linear-gradient(107.7% -121.23% -147.54deg,rgba(173, 136, 91, 1) 0%,rgba(201, 178, 140, 1) 100%);
+	background : -webkit-linear-gradient(-147.54deg, rgba(173, 136, 91, 1) 0%, rgba(201, 178, 140, 1) 100%);
+	background : -webkit-gradient(linear,107.7% -121.23% ,30.25% 109.83% ,color-stop(0,rgba(173, 136, 91, 1) ),color-stop(1,rgba(201, 178, 140, 1) ));
+	background : -o-linear-gradient(-147.54deg, rgba(173, 136, 91, 1) 0%, rgba(201, 178, 140, 1) 100%);
+	background : -ms-linear-gradient(-147.54deg, rgba(173, 136, 91, 1) 0%, rgba(201, 178, 140, 1) 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#AD885B', endColorstr='#C9B28C' ,GradientType=0)";
+	background : linear-gradient(237.54deg, rgba(173, 136, 91, 1) 0%, rgba(201, 178, 140, 1) 100%);
+	border-radius : 8px 5px 5px 8px;
+	-moz-border-radius : 8px 5px 5px 8px;
+	-webkit-border-radius : 8px 5px 5px 8px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AD885B',endColorstr='#C9B28C' , GradientType=1);
+}
+
+
+header{
+	background-image: url(../img/hero-image.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+main{
+	background-color: #111;
+}
+#monthly-subscription{
+	/*position: relative;*/
+}
+
+.monthly-sub-container{
+	background-color: #000;
+	border-radius: 30px;
+	/*position: absolute;
+	top: -50px;
+	left: 0;
+	right: 0;*/
+}
+
+.sub-container{
+	background-color: #111;
+	border-radius: 15px;
+	border: 1px solid #AD885B;
+	/*position: relative;
+	bottom: -100px;
+	z-index: 1;
+	display: block;*/
+}
+
+.plans{
+	box-sizing: border-box;
+}
+
+.plans .col{
+	-ms-flex: 0 0 18%;
+    flex: 0 0 18%;
+    max-width: 18%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.plan{
+	text-align: center;
+	background: #000;
+	border-radius: 15px;
+	padding: 25px;
+}
+
+.plan a, .plan a:hover{
+	color: #cbcbcd;
+	text-decoration: none;
+}
+
+.plans img{
+	width: 25px;
+	height: 25px;
+}
+
+#any-device h1{
+	font-size: 48px;
+	color: #fff;
+}
+
+#any-device h4{
+	font-size: 28px;
+  background: linear-gradient(to right, #c7933b , #e3c477);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.img-container .img-box{
+	padding: 10px;
+	background: #000;
+	border: 2px solid #303030;
+	height: 114px;
+	width: 114px;
+	text-align: center;
+	margin-right: 20px;
+	border-radius: 10px;
+
+}
+
+#arab-world{
+	background-image: url(../img/arab-world-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+#arab-world h1{
+	font-size: 48px;
+	color: #fff;
+	line-height: 72px;
+}
+
+#contact-form{
+	position: relative;
+}
+
+.c-form-outer{
+	background-color: #000;
+	border-radius: 20px;
+
+}
+
+.c-form input, .c-form textarea{
+	background-color: #D0D2D3;
+}
+
+.left{
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 31%;
+	width: 65px;
+	height: 300px;
+	border-radius: 0 20px 20px 0;
+}
+
+.right{
+	background-color: #000;
+	position: absolute;
+	right: 0;
+	top: 31%;
+	width: 65px;
+	height: 300px;
+	border-radius: 20px 0 0 20px;
+}
+
+.captcha .buttons{
+	position: absolute;
+	bottom: 0
+}
+
+.captcha .buttons button{
+	color: #fff;
+	font-size: 14px;
+}
+
